@@ -17,6 +17,9 @@ import { TwoWayComponent } from './two-way/two-way.component';
 import { ServiceDemoComponent } from './service-demo/service-demo.component';
 import { ServiceDemo2Component } from './service-demo2/service-demo2.component';
 import { AppRoutingModule } from './app-routing.module';
+import {HttpClient, HttpClientModule} from '@angular/common/http';
+import { HttpClientComponent } from './http-client/http-client.component';
+
 
 @NgModule({
   declarations: [
@@ -33,12 +36,15 @@ import { AppRoutingModule } from './app-routing.module';
     OneWayComponent,
     TwoWayComponent,
     ServiceDemoComponent,
-    ServiceDemo2Component
+    ServiceDemo2Component,
+    HttpClientComponent,
+  
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

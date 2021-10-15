@@ -2,14 +2,20 @@
     "students": [
       {
         "id": 12,
-        "name": "Student1111",
+        "name": "Philip",
         "age": 42
       },
       {
         "id": 13,
-        "name": "Student122245",
+        "name": "Sam",
         "age": 22
+      },
+      {
+        "id": 14,
+        "name": "Zach",
+        "age": 21
       }
+
   ]
   }
   

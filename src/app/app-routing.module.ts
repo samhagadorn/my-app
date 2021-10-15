@@ -8,6 +8,7 @@ import { ServiceDemo2Component } from './service-demo2/service-demo2.component';
 import { StruDireComponent } from './stru-dire/stru-dire.component';
 import { TwoWayComponent } from './two-way/two-way.component';
 import { OneWayComponent } from './one-way/one-way.component';
+import { HttpClientComponent } from './http-client/http-client.component';
 
 const routes: Routes = [
 {path: "newComponent", component: NewCompComponent},  
@@ -17,6 +18,7 @@ const routes: Routes = [
 {path: "struDire", component: StruDireComponent},  
 {path: "oneWay", component: OneWayComponent},  
 {path: "twoWay", component: TwoWayComponent},  
+{path: "httpClient", component: HttpClientComponent},  
 ];
 
 
